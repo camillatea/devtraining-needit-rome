@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>incident</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<table style="height: 150px; width: 618px; border-collapse: collapse; border-style: hidden; background-color: #000000; margin-left: auto; margin-right: auto;" border="0px" cellpadding="-10px">
+<tbody>
+<tr style="border-style: hidden;">
+<td style="width: 100%; border-style: hidden;"><img src="/sys_attachment.do?sys_id=09c1dcf0877230104051edf73cbb350a" /></td>
+</tr>
+</tbody>
+</table>
+<table style="height: 13px; width: 618px; border-collapse: collapse; background-color: #5a6b64; border-style: hidden; margin-left: auto; margin-right: auto;" border="0px" cellpadding="10px">
+<tbody>
+<tr style="height: 13px;">
+<td style="width: 596px; height: 13px; text-align: center;"><span style="font-size: 12pt; color: #ffffff; font-family: helvetica;"><em><strong>Re: ${short_description}</strong></em></span></td>
+</tr>
+</tbody>
+</table>
+<table style="height: 405px; width: 618px; border-collapse: collapse; font-size: 10px; font-family: 'Verdana sans-serif'; margin-left: auto; margin-right: auto;" border="5" cellpadding="10px">
+<tbody>
+<tr style="height: 13px;">
+<td style="width: 618px; height: 13px;">
+<p><span style="font-size: 10pt; color: #000000; font-family: verdana, geneva;">Hi ${caller_id},</span></p>
+<p><span style="font-size: 10pt; color: #000000; font-family: verdana, geneva;">Your request '${number}'&nbsp;has been received, and is currently being reviewed.</span></p>
+<p><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;">Find the details of your request here:<br /><br /></span></p>
+<p><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;"><strong>Description:</strong> <br /></span></p>
+<ul style="list-style-position: inside;">
+<li style="font-size: 10pt; color: #000000;"><span style="font-size: 10pt; font-family: verdana, geneva;"><em><span style="color: #000000;">"${description}"</span><br /></em></span></li>
+</ul>
+<p><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;"><strong>Latest Comments:&nbsp;</strong></span></p>
+<table style="height: 38px; width: 81.6976%; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1" cellpadding="15px">
+<tbody>
+<tr style="height: 38px;">
+<td style="width: 100%; height: 38px;">
+<p><span style="font-size: 10pt; font-family: verdana, geneva; color: #000000;">${comments}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;">If you wish to view this record please click here: <em>${URI_REF}</em></span></p>
+<p><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;">Please allow 2-5 business days for our team to get in touch with you in regards to the outcome of this request.</span></p>
+<p><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;">Your feedback matters to us! Please let us know how we did and how we can improve our service:</span></p>
+<p><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;"><em>(Feedback stuff here; either a link or a star rating etc.)</em></span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 618px;">
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><span style="font-family: verdana, geneva;">Regards,</span></span><br /><span style="font-family: verdana, geneva; font-size: 10pt;"><em>IT Service Desk</em></span></p>
+<p><span style="font-family: verdana, geneva; font-size: 8pt;"><span style="color: #008000;"><strong>Phone:</strong></span> +61 2 6166 4512</span><br /><span style="font-family: verdana, geneva; font-size: 8pt;"><span style="color: #008000;"><strong>Email: </strong></span><a href="mailto:help@grdc.com.au">help@grdc.com.au</a></span></p>
+<p><span style="color: #808080; font-family: verdana, geneva; font-size: 8pt;">Grains Research and Development Corporation (GRDC)</span><br /><span style="color: #808080; font-family: verdana, geneva; font-size: 8pt;">PO BOX 5367, Kingston, ACT, 2604 Australia</span><br /><span style="color: #808080; font-family: verdana, geneva; font-size: 8pt;">Level 4 East Building, 4 National Circuit, Barton ACT 2600 Australia</span></p>
+<p><span style="font-family: verdana, geneva; font-size: 7.5pt;"><span style="color: #999999;">IMPORTANT: This message, including any attachments, is intended only for the person or entity to which it is addressed. </span><span style="color: #999999;">It may contain private or confidential information. If you think you may not be the intended&nbsp; recipient, or if you have received this message in error, please contact the sender immediate and delete all&nbsp; copies of this message. If you are not the intended recipient, you must not reproduct any part of this&nbsp; message or disclose its contents to another party.</span></span></p>
+<p><span style="color: #999999; font-family: verdana, geneva; font-size: 8pt;">${NOTIF_UNSUB}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>GRDC Incident Request</name>
+        <sms_alternate/>
+        <subject>GRDC-SD Request: ${category} - ${short_description}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-22 02:05:14</sys_created_on>
+        <sys_id>4518d878877230104051edf73cbb3579</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>GRDC Incident Request</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_template_4518d878877230104051edf73cbb3579</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-22 03:00:16</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

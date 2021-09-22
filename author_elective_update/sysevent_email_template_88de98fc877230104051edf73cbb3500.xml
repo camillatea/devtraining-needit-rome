@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="DELETE">
+        <collection>incident</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<table style="height: 150px; width: 618px; border-collapse: collapse; border-style: hidden; background-color: #000000; margin-left: auto; margin-right: auto;" border="0px" cellpadding="-10px">
+<tbody>
+<tr style="border-style: hidden;">
+<td style="width: 100%; border-style: hidden;"><img src="/sys_attachment.do?sys_id=de5994b8877230104051edf73cbb351a" /></td>
+</tr>
+</tbody>
+</table>
+<table style="height: 13px; width: 618px; border-collapse: collapse; background-color: #5a6b64; border-style: hidden; margin-left: auto; margin-right: auto;" border="0px" cellpadding="10px">
+<tbody>
+<tr style="height: 13px;">
+<td style="width: 596px; height: 13px; text-align: center;"><span style="font-size: 12pt; color: #ffffff; font-family: helvetica;"><em><strong>Re: ${short_description}</strong></em></span></td>
+</tr>
+</tbody>
+</table>
+<table style="height: 405px; width: 618px; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="5" cellpadding="10px">
+<tbody>
+<tr style="height: 13px;">
+<td style="width: 618px; height: 13px;">
+<p><span style="font-size: 10pt; color: #000000; font-family: verdana, geneva;">Hi ${caller_id},</span></p>
+<p><span style="font-size: 10pt; font-family: verdana, geneva;"><span style="color: #000000;">Your request '${number}' has been resolved, please find the details of closure below.</span></span></p>
+<p><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;"><strong>Reason of Closure:&nbsp;</strong></span></p>
+<table style="height: 34px; width: 81.6976%; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1" cellpadding="15px">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<p><span style="font-size: 10pt; font-family: verdana, geneva;">${close_notes}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 10pt; font-family: verdana, geneva;"><strong>Details of Request:</strong></span></p>
+<table style="width: 55.4812%; border-collapse: collapse; margin-left: auto; margin-right: auto; height: 104px;" border="1">
+<tbody>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Request #</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${number}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Status</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${state}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Requester</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${caller_id.name}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Group</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${assignment_group.name}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Assignee</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${assigned_to.name}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Priority</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${priority}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Type</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${category}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Channel</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${contact_type}</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;">If the issue has not been resolved, please reply to this email or click the following link and leave a comment to re-open your request: <em>${URI_REF}</em> </span></p>
+<p><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;">Your feedback matters to us! Please let us know how we did and how we can improve our service:</span><br /><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;"><em>&nbsp;<br />(Feedback stuff here; either a link or a star rating etc.)</em></span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 618px;">
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><span style="font-family: verdana, geneva;">Regards,</span></span><br /><span style="font-family: verdana, geneva; font-size: 10pt;"><em>IT Service Desk</em></span></p>
+<p><span style="font-family: verdana, geneva; font-size: 8pt;"><span style="color: #008000;"><strong>Phone:</strong></span> +61 2 6166 4512</span><br /><span style="font-family: verdana, geneva; font-size: 8pt;"><span style="color: #008000;"><strong>Email: </strong></span><a href="mailto:help@grdc.com.au">help@grdc.com.au</a></span></p>
+<p><span style="color: #808080; font-family: verdana, geneva; font-size: 8pt;">Grains Research and Development Corporation (GRDC)</span><br /><span style="color: #808080; font-family: verdana, geneva; font-size: 8pt;">PO BOX 5367, Kingston, ACT, 2604 Australia</span><br /><span style="color: #808080; font-family: verdana, geneva; font-size: 8pt;">Level 4 East Building, 4 National Circuit, Barton ACT 2600 Australia</span></p>
+<p><span style="font-family: verdana, geneva; font-size: 7.5pt;"><span style="color: #999999;">IMPORTANT: This message, including any attachments, is intended only for the person or entity to which it is addressed. </span><span style="color: #999999;">It may contain private or confidential information. If you think you may not be the intended&nbsp; recipient, or if you have received this message in error, please contact the sender immediate and delete all&nbsp; copies of this message. If you are not the intended recipient, you must not reproduct any part of this&nbsp; message or disclose its contents to another party.</span></span></p>
+<p><span style="color: #999999; font-family: verdana, geneva; font-size: 8pt;">${NOTIF_UNSUB}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>GRDC Incident Resolution</name>
+        <sms_alternate/>
+        <subject>GRDC-SD Resolution: ${category} ${short_description}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-22 02:34:39</sys_created_on>
+        <sys_id>88de98fc877230104051edf73cbb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRDC Incident Resolution</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_template_88de98fc877230104051edf73cbb3500</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-22 02:34:39</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>da2153c8db983010e26fd7c8f4961917</instance_id>
+        <instance_name>dev117543</instance_name>
+        <name>sysevent_email_template_88de98fc877230104051edf73cbb3500</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;&lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;email_layout/&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;table style="height: 150px; width: 618px; border-collapse: collapse; border-style: hidden; background-color: #000000; margin-left: auto; margin-right: auto;" border="0px" cellpadding="-10px"&gt;
+&lt;tbody&gt;
+&lt;tr style="border-style: hidden;"&gt;
+&lt;td style="width: 100%; border-style: hidden;"&gt;&lt;img src="/sys_attachment.do?sys_id=de5994b8877230104051edf73cbb351a" /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table style="height: 13px; width: 618px; border-collapse: collapse; background-color: #5a6b64; border-style: hidden; margin-left: auto; margin-right: auto;" border="0px" cellpadding="10px"&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 13px;"&gt;
+&lt;td style="width: 596px; height: 13px; text-align: center;"&gt;&lt;span style="font-size: 12pt; color: #ffffff; font-family: helvetica;"&gt;&lt;em&gt;&lt;strong&gt;Re: ${short_description}&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table style="height: 405px; width: 618px; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="5" cellpadding="10px"&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 13px;"&gt;
+&lt;td style="width: 618px; height: 13px;"&gt;
+&lt;p&gt;&lt;span style="font-size: 10pt; color: #000000; font-family: verdana, geneva;"&gt;Hi ${caller_id},&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;&lt;span style="color: #000000;"&gt;Your request '${number}' has been resolved, please find the details of closure below.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;"&gt;&lt;strong&gt;Reason of Closure:&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;table style="height: 34px; width: 81.6976%; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1" cellpadding="15px"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="width: 100%;"&gt;
+&lt;p&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;${close_notes}&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;&lt;strong&gt;Details of Request:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;table style="width: 55.4812%; border-collapse: collapse; margin-left: auto; margin-right: auto; height: 104px;" border="1"&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 13px;"&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;Request #&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;
+&lt;div&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;${number}&lt;/span&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 13px;"&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;Status&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;
+&lt;div&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;${state}&lt;/span&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 13px;"&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;Requester&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;
+&lt;div&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;${caller_id.name}&lt;/span&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 13px;"&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;Group&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;
+&lt;div&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;${assignment_group.name}&lt;/span&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 13px;"&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;Assignee&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;
+&lt;div&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;${assigned_to.name}&lt;/span&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 13px;"&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;Priority&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;
+&lt;div&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;${priority}&lt;/span&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 13px;"&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;Type&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;
+&lt;div&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;${category}&lt;/span&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 13px;"&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;Channel&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"&gt;
+&lt;div&gt;&lt;span style="font-size: 10pt; font-family: verdana, geneva;"&gt;${contact_type}&lt;/span&gt;&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;"&gt;If the issue has not been resolved, please reply to this email or click the following link and leave a comment to re-open your request: &lt;em&gt;${URI_REF}&lt;/em&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;"&gt;Your feedback matters to us! Please let us know how we did and how we can improve our service:&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;"&gt;&lt;em&gt;&amp;nbsp;&lt;br /&gt;(Feedback stuff here; either a link or a star rating etc.)&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 618px;"&gt;
+&lt;p&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&lt;span style="font-family: verdana, geneva;"&gt;Regards,&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family: verdana, geneva; font-size: 10pt;"&gt;&lt;em&gt;IT Service Desk&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: verdana, geneva; font-size: 8pt;"&gt;&lt;span style="color: #008000;"&gt;&lt;strong&gt;Phone:&lt;/strong&gt;&lt;/span&gt; +61 2 6166 4512&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family: verdana, geneva; font-size: 8pt;"&gt;&lt;span style="color: #008000;"&gt;&lt;strong&gt;Email: &lt;/strong&gt;&lt;/span&gt;&lt;a href="mailto:help@grdc.com.au"&gt;help@grdc.com.au&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #808080; font-family: verdana, geneva; font-size: 8pt;"&gt;Grains Research and Development Corporation (GRDC)&lt;/span&gt;&lt;br /&gt;&lt;span style="color: #808080; font-family: verdana, geneva; font-size: 8pt;"&gt;PO BOX 5367, Kingston, ACT, 2604 Australia&lt;/span&gt;&lt;br /&gt;&lt;span style="color: #808080; font-family: verdana, geneva; font-size: 8pt;"&gt;Level 4 East Building, 4 National Circuit, Barton ACT 2600 Australia&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: verdana, geneva; font-size: 7.5pt;"&gt;&lt;span style="color: #999999;"&gt;IMPORTANT: This message, including any attachments, is intended only for the person or entity to which it is addressed. &lt;/span&gt;&lt;span style="color: #999999;"&gt;It may contain private or confidential information. If you think you may not be the intended&amp;nbsp; recipient, or if you have received this message in error, please contact the sender immediate and delete all&amp;nbsp; copies of this message. If you are not the intended recipient, you must not reproduct any part of this&amp;nbsp; message or disclose its contents to another party.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #999999; font-family: verdana, geneva; font-size: 8pt;"&gt;${NOTIF_UNSUB}&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;GRDC Incident Resolution&lt;/name&gt;&lt;sms_alternate/&gt;&lt;subject&gt;GRDC-SD Resolution: ${category} ${short_description}&lt;/subject&gt;&lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-22 02:34:39&lt;/sys_created_on&gt;&lt;sys_id&gt;88de98fc877230104051edf73cbb3500&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;GRDC Incident Resolution&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_template_88de98fc877230104051edf73cbb3500&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-09-22 02:34:39&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;/sysevent_email_template&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>500913159</payload_hash>
+        <record_name>GRDC Incident Resolution</record_name>
+        <reverted_from/>
+        <source>41c0c5da871230104051edf73cbb35a1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-22 02:34:39</sys_created_on>
+        <sys_id>ccde98fc877230104051edf73cbb3501</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c0b5ae9120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-22 02:34:39</sys_updated_on>
+        <type>Email Template</type>
+        <update_guid>08de98fc8e7230107080ca519cc8b601</update_guid>
+        <update_guid_history>08de98fc8e7230107080ca519cc8b601:500913159</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-22 02:35:56</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_template">sysevent_email_template</sys_db_object>
+        <sys_id>7151a8d0e04c4e9cb24caaaad3f0a310</sys_id>
+        <sys_metadata>88de98fc877230104051edf73cbb3500</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRDC Incident Resolution</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Incident">aee0858b6d2620100acb70b353433075</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sysevent_email_template_88de98fc877230104051edf73cbb3500</sys_update_name>
+        <sys_update_version display_value="sysevent_email_template_88de98fc877230104051edf73cbb3500">ccde98fc877230104051edf73cbb3501</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-22 02:35:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -3,57 +3,122 @@
         <collection>incident</collection>
         <email_layout/>
         <message/>
-        <message_html><![CDATA[<table style="border-collapse: collapse; width: 27.9458%; height: 590px;" border="1">
+        <message_html><![CDATA[<table style="height: 150px; width: 618px; border-collapse: collapse; border-style: hidden; background-color: #000000; margin-left: auto; margin-right: auto;" border="0px" cellpadding="-10px">
 <tbody>
-<tr style="height: 161px;">
-<td style="width: 100%; height: 161px;"><img src="/sys_attachment.do?sys_id=89f4cc2c87b230104051edf73cbb357a" /></td>
+<tr style="border-style: hidden;">
+<td style="width: 100%; border-style: hidden;"><img src="/sys_attachment.do?sys_id=de5994b8877230104051edf73cbb351a" /></td>
 </tr>
+</tbody>
+</table>
+<table style="height: 13px; width: 618px; border-collapse: collapse; background-color: #5a6b64; border-style: hidden; margin-left: auto; margin-right: auto;" border="0px" cellpadding="10px">
+<tbody>
 <tr style="height: 13px;">
-<td style="width: 100%; height: 13px;">
-<p style="text-align: center;"><span style="font-family: verdana, geneva; font-size: 7pt;">Re: ${short_description}</span></p>
-<p><span style="font-family: verdana, geneva; font-size: 7pt;">&nbsp;Hi ${ <em>(name here) </em>},</span></p>
-<p><span style="font-family: verdana, geneva; font-size: 7pt;">&nbsp;Your request '${ <em>(request number here) </em>}' has been received, and is currently being reviewed.</span></p>
-<p><span style="font-family: verdana, geneva; font-size: 7pt;">&nbsp;Find the details of your request here:</span></p>
-<ul style="list-style-position: inside;">
-<li style="font-family: verdana, geneva; font-size: 7pt;"><strong>Description:</strong> ${description}</li>
-<li style="font-family: verdana, geneva; font-size: 7pt;"><strong>Latest Comment:&nbsp;</strong>${<em> (latest comment goes here) </em>}</li>
-</ul>
-<p><span style="font-family: verdana, geneva; font-size: 7pt;">&nbsp;If you wish to view the record please click here: ${ <em>(Link to record goes here)&nbsp;</em>}</span></p>
-<p><span style="font-family: verdana, geneva; font-size: 7pt;">&nbsp;Please allow 2-5 business days for our team to get in touch with you with regards to the outcome of this&nbsp; request.</span><br /><br /></p>
-<p><span style="font-family: verdana, geneva; font-size: 7pt;">&nbsp;Your feedback matters to us! Please let us know how we did and how we can improve our service:</span><br /><span style="font-family: verdana, geneva; font-size: 7pt;"><em>&nbsp;(Feedback stuff here; either a link or a star rating etc.)</em></span></p>
-<p>&nbsp;</p>
-</td>
+<td style="width: 596px; height: 13px; text-align: center;"><span style="font-size: 12pt; color: #ffffff; font-family: helvetica;"><em><strong>Re: ${short_description}</strong></em></span></td>
 </tr>
+</tbody>
+</table>
+<table style="height: 405px; width: 618px; border-collapse: collapse; font-size: 10px; font-family: 'Verdana sans-serif'; margin-left: auto; margin-right: auto;" border="5" cellpadding="10px">
+<tbody>
+<tr style="height: 13px;">
+<td style="width: 618px; height: 13px;">
+<p><span style="font-size: 10pt; color: #000000; font-family: verdana, geneva;">Hi ${caller_id},</span></p>
+<p><span style="font-size: 10pt; font-family: verdana, geneva;"><span style="color: #000000;">Your request '${number}' has been resolved, please find the details of closure below.</span></span></p>
+<p><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;"><strong>Reason of Closure:&nbsp;</strong></span></p>
+<table style="height: 34px; width: 81.6976%; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="1" cellpadding="15px">
+<tbody>
 <tr>
 <td style="width: 100%;">
-<p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;"><span style="font-family: arial, helvetica, sans-serif;">&nbsp;<span style="font-family: verdana, geneva; font-size: 7pt;">Regards,</span></span><br /><span style="font-family: verdana, geneva; font-size: 7pt;"><em>&nbsp;IT Service Desk</em></span></p>
-<p style="text-align: left;"><span style="font-family: verdana, geneva; font-size: 7pt;"><span style="color: #008000;"><strong>&nbsp;Phone:</strong></span> +61 2 6166 4512</span><br /><span style="font-family: verdana, geneva; font-size: 7pt;"><span style="color: #008000;"><strong>&nbsp;Email: </strong></span><a href="mailto:help@grdc.com.au">help@grdc.com.au</a></span></p>
-<p style="text-align: left;"><span style="color: #999999; font-family: verdana, geneva; font-size: 7pt;">&nbsp;Grains Research and Development Corporation (GRDC)</span><br /><span style="color: #999999; font-family: verdana, geneva; font-size: 7pt;">&nbsp;PO BOX 5367, Kingston, ACT, 2604 Australia</span><br /><span style="color: #999999; font-family: verdana, geneva; font-size: 7pt;">&nbsp;Level 4 East Building, 4 National Circuit, Barton ACT 2600 Australia</span></p>
-<p style="text-align: left;"><span style="font-family: verdana, geneva; font-size: 7pt;"><span style="color: #999999;">&nbsp;IMPORTANT: This message, including any attachments, is intended only for the person or entity to which it is&nbsp; addressed.&nbsp;&nbsp;<br /></span><span style="color: #999999;">&nbsp;It may contain private or confidential information. If you think you may not be the intended&nbsp; recipient, or if you have received<br />&nbsp;this message in error, please contact the sender immediate and delete all&nbsp; copies of this message. If you are not the intended<br />&nbsp;recipient, you must not reproduct any part of this&nbsp; message or disclose its contents to another party.</span></span></p>
-<p style="text-align: left;">&nbsp;</p>
-<p style="text-align: left;"><span style="color: #999999; font-family: verdana, geneva; font-size: 7pt;">&nbsp;UNSUBSCRIBE</span></p>
+<p><span style="font-size: 10pt; font-family: verdana, geneva;">${close_notes}</span></p>
 </td>
 </tr>
 </tbody>
-</table>]]></message_html>
+</table>
+<p><span style="font-size: 10pt; font-family: verdana, geneva;"><strong>Details of Request:</strong></span></p>
+<table style="width: 55.4812%; border-collapse: collapse; margin-left: auto; margin-right: auto; height: 104px;" border="1">
+<tbody>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Request #</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${number}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Status</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${state}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Requester</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${caller_id.name}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Group</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${assignment_group.name}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Assignee</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${assigned_to.name}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Priority</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${priority}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Type</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${category}</span></div>
+</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;"><span style="font-size: 10pt; font-family: verdana, geneva;">Channel</span></td>
+<td style="width: 50%; height: 13px; text-align: center; vertical-align: middle;">
+<div><span style="font-size: 10pt; font-family: verdana, geneva;">${contact_type}</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;">If the issue has not been resolved, please reply to this email or click the following link and leave a comment to re-open your request: <em>${URI_REF}</em> </span></p>
+<p><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;">Your feedback matters to us! Please let us know how we did and how we can improve our service:</span><br /><span style="font-family: verdana, geneva; font-size: 10pt; color: #000000;"><em>&nbsp;<br />(Feedback stuff here; either a link or a star rating etc.)</em></span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 618px;">
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><span style="font-family: verdana, geneva;">Regards,</span></span><br /><span style="font-family: verdana, geneva; font-size: 10pt;"><em>IT Service Desk</em></span></p>
+<p><span style="font-family: verdana, geneva; font-size: 8pt;"><span style="color: #008000;"><strong>Phone:</strong></span> +61 2 6166 4512</span><br /><span style="font-family: verdana, geneva; font-size: 8pt;"><span style="color: #008000;"><strong>Email: </strong></span><a href="mailto:help@grdc.com.au">help@grdc.com.au</a></span></p>
+<p><span style="color: #808080; font-family: verdana, geneva; font-size: 8pt;">Grains Research and Development Corporation (GRDC)</span><br /><span style="color: #808080; font-family: verdana, geneva; font-size: 8pt;">PO BOX 5367, Kingston, ACT, 2604 Australia</span><br /><span style="color: #808080; font-family: verdana, geneva; font-size: 8pt;">Level 4 East Building, 4 National Circuit, Barton ACT 2600 Australia</span></p>
+<p><span style="font-family: verdana, geneva; font-size: 7.5pt;"><span style="color: #999999;">IMPORTANT: This message, including any attachments, is intended only for the person or entity to which it is addressed. </span><span style="color: #999999;">It may contain private or confidential information. If you think you may not be the intended&nbsp; recipient, or if you have received this message in error, please contact the sender immediate and delete all&nbsp; copies of this message. If you are not the intended recipient, you must not reproduct any part of this&nbsp; message or disclose its contents to another party.</span></span></p>
+<p><span style="color: #999999; font-family: verdana, geneva; font-size: 8pt;">${NOTIF_UNSUB}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>GRDC Test Template</name>
+        <name>GRDC Incident Resolution</name>
         <sms_alternate/>
-        <subject>Re:  ${short_description}</subject>
+        <subject>GRDC-SD Resolution: ${category} - ${short_description}</subject>
         <sys_class_name>sysevent_email_template</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-21 06:51:33</sys_created_on>
         <sys_id>4c3540ac87b230104051edf73cbb35d2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>GRDC Test Template</sys_name>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>GRDC Incident Resolution</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_template_4c3540ac87b230104051edf73cbb35d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-21 06:51:33</sys_updated_on>
+        <sys_updated_on>2021-09-22 03:00:25</sys_updated_on>
         <sys_version>2</sys_version>
     </sysevent_email_template>
 </record_update>
